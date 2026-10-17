@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or the released streams, please cite the article below."
+title: "OpinionLineage-OLS: code and data for confidence-weighted opinion lineage and exact retroactive correction of organic sentiment"
+version: 1.0.0
+date-released: 2026-10-17
+license: MIT
+repository-code: "https://github.com/RakshitRPathak/OpinionLineage-OLS"
+doi: "10.5281/zenodo.XXXXXXX"
+authors:
+  - family-names: Pathak
+    given-names: Rakshit Ratan
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+  - family-names: Vibhanshu
+    given-names: Samridhi
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+  - family-names: M
+    given-names: Ranjith Kumar
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+    email: ranjith.kumar@vit.ac.in
+keywords: [sentiment analysis, opinion lineage, provenance, coordinated inauthentic behaviour, AI-generated text, incremental view maintenance]
+preferred-citation:
+  type: article
+  title: "Confidence-Weighted Opinion Lineage for Organic Sentiment Estimation Under Synthetic and Coordinated Amplification, With Exact Lineage-Bounded Retroactive Correction"
+  authors:
+    - family-names: Pathak
+      given-names: Rakshit Ratan
+    - family-names: Vibhanshu
+      given-names: Samridhi
+    - family-names: M
+      given-names: Ranjith Kumar
+  journal: "IEEE Access"
+  year: 2026
+  status: submitted

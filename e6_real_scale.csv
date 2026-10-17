@@ -1,0 +1,2 @@
+n,revised_roots,touched,touched_frac,t_selective_s,t_full_reprocess_s,t_inference_only_s,inference_s_per_record,max_diff,model_inferences_selective,model_inferences_full
+50000,293,1004,0.02008,0.03683862199977739,528.0577535969996,14.951703368999915,0.0002990340673799983,1.2490009027033011e-15,0,100000

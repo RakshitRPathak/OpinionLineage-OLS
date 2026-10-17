@@ -1,0 +1,30 @@
+{
+ "selected_sentiment_model": "Linear SVC (Platt)",
+ "abg": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "tau_nd": 0.5,
+ "cal_edge_auc": 0.999978036331704,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "kappas": [
+  0.0,
+  0.1,
+  0.2,
+  0.3,
+  0.4,
+  0.5,
+  0.6
+ ],
+ "stream_sha256": "3298cb7fbfddad6280f4442a889401b3dab16fe3de5ba0c15f5e7573a7a170d2",
+ "stream_matches_shipped": null,
+ "runtime_s": 1706.7463147640228,
+ "quick": false
+}

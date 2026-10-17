@@ -1,0 +1,21 @@
+digraph OLS {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.18, ranksep=0.32, splines=spline, pad=0.05, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=9, color="#52514e", fillcolor="#f4f4f2", penwidth=0.8, margin="0.07,0.04"];
+  edge  [color="#52514e", arrowsize=0.6, penwidth=0.8];
+
+    src  [label="Opinion stream\ntext, account, time,\noptional repost/quote id"];
+    rep  [label="Representation store\nword+char TF-IDF z_i\nsentiment vector P_i", fillcolor="#e3eefb"];
+    prov [label="Provenance evidence\nP_syn (synthetic text)\nP_coord (account + burst)", fillcolor="#e3eefb"];
+    cand [label="Candidate parents\ntop-K earlier neighbours\n+ explicit metadata", fillcolor="#e3eefb"];
+    edgem[label="Calibrated edge model\nc_ij = P(i derives from\nj's lineage)", fillcolor="#e3eefb"];
+  {rank=same; src; rep; prov; cand; edgem;}
+  {rank=same; olg; wit; agg;}
+  {rank=same; rev; sdr;}
+  olg  [label="Opinion-Lineage Graph\nprimary-parent forest\n(time-ordered, acyclic)", fillcolor="#e3eefb"];
+  wit  [label="Contribution witness per record\nroot id, L_i, F_i, A_root, W_i,\nrefs to z_i and P_i, versions", fillcolor="#fde3d8"];
+  agg  [label="Stored aggregate per interval\nA_c = sum W_i P_i(c),  Z = sum W_i\n-> organic distribution, SCI,\nindependent / amplification mass", fillcolor="#fde3d8"];
+  rev  [label="Provenance revision event\n(root found synthetic, edge\nconfidence revised, ...)"];
+  sdr  [label="Selective Dependency Rollback\nD(v) by BFS; W'_u = W_u + q_vu (W~_u - W_u)\nadditive delta, O(|D(v)|), no model calls", fillcolor="#fde3d8"];
+  src -> rep; src -> prov; rep -> cand; cand -> edgem; prov -> edgem; edgem -> olg; olg -> wit; prov -> wit; rep -> wit; wit -> agg;
+  rev -> sdr; wit -> sdr [style=dashed]; olg -> sdr [style=dashed]; sdr -> agg [label=" delta", fontsize=7, fontname="Helvetica"];
+}

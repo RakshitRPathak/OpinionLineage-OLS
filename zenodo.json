@@ -1,0 +1,10 @@
+{
+  "title": "OpinionLineage-OLS: code and data for confidence-weighted opinion lineage and exact retroactive correction of organic sentiment",
+  "upload_type": "software",
+  "creators": [{"name": "Pathak, Rakshit Ratan", "affiliation": "Vellore Institute of Technology, Vellore, India"},
+               {"name": "Vibhanshu, Samridhi", "affiliation": "Vellore Institute of Technology, Vellore, India"},
+               {"name": "M, Ranjith Kumar", "affiliation": "Vellore Institute of Technology, Vellore, India"}],
+  "license": "MIT",
+  "keywords": ["sentiment analysis", "opinion lineage", "provenance", "coordinated inauthentic behaviour", "AI-generated text", "incremental view maintenance"],
+  "related_identifiers": [{"identifier": "https://github.com/RakshitRPathak/OpinionLineage-OLS", "relation": "isSupplementTo", "scheme": "url"}]
+}

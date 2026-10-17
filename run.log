@@ -1,0 +1,144 @@
+[    0.1s] E1 fitting components (sentiment suite, synthetic detector, calibration streams, edge model, tuning)
+[  108.4s]   sentiment suite done (108s), selected: Linear SVC (Platt)
+[  155.1s]   calibration streams + edge model done (155s)
+[  168.6s]   tuned alpha,beta,gamma = (1.0, 1.0, 1.0); tau_nd = 0.5 (169s)
+[  169.0s] released stream sha256 3298cb7fbfddad62... matches shipped copy: n/a (no shipped copy)
+[  169.0s] E2 contamination sweep
+[  172.8s]     E2 seed 0 kappa 0.0: n=2500  OLS prov 0.0030  heur prov 0.0102  raw prov 0.0000
+[  177.2s]     E2 seed 0 kappa 0.1: n=2778  OLS prov 0.0031  heur prov 0.0099  raw prov 0.0192
+[  182.7s]     E2 seed 0 kappa 0.2: n=3125  OLS prov 0.0031  heur prov 0.0091  raw prov 0.0475
+[  188.9s]     E2 seed 0 kappa 0.3: n=3571  OLS prov 0.0033  heur prov 0.0091  raw prov 0.0772
+[  196.2s]     E2 seed 0 kappa 0.4: n=4167  OLS prov 0.0027  heur prov 0.0072  raw prov 0.0890
+[  206.3s]     E2 seed 0 kappa 0.5: n=5000  OLS prov 0.0026  heur prov 0.0077  raw prov 0.1250
+[  219.3s]     E2 seed 0 kappa 0.6: n=6250  OLS prov 0.0025  heur prov 0.0065  raw prov 0.1447
+[  223.3s]     E2 seed 1 kappa 0.0: n=2500  OLS prov 0.0033  heur prov 0.0106  raw prov 0.0000
+[  227.5s]     E2 seed 1 kappa 0.1: n=2778  OLS prov 0.0033  heur prov 0.0098  raw prov 0.0245
+[  232.3s]     E2 seed 1 kappa 0.2: n=3125  OLS prov 0.0035  heur prov 0.0097  raw prov 0.0439
+[  237.8s]     E2 seed 1 kappa 0.3: n=3571  OLS prov 0.0033  heur prov 0.0082  raw prov 0.0633
+[  245.2s]     E2 seed 1 kappa 0.4: n=4167  OLS prov 0.0025  heur prov 0.0078  raw prov 0.0980
+[  254.1s]     E2 seed 1 kappa 0.5: n=5000  OLS prov 0.0027  heur prov 0.0066  raw prov 0.1185
+[  268.6s]     E2 seed 1 kappa 0.6: n=6250  OLS prov 0.0025  heur prov 0.0076  raw prov 0.1360
+[  272.3s]     E2 seed 2 kappa 0.0: n=2500  OLS prov 0.0032  heur prov 0.0088  raw prov 0.0000
+[  276.3s]     E2 seed 2 kappa 0.1: n=2778  OLS prov 0.0030  heur prov 0.0083  raw prov 0.0285
+[  280.8s]     E2 seed 2 kappa 0.2: n=3125  OLS prov 0.0029  heur prov 0.0079  raw prov 0.0475
+[  285.9s]     E2 seed 2 kappa 0.3: n=3571  OLS prov 0.0031  heur prov 0.0072  raw prov 0.0790
+[  293.2s]     E2 seed 2 kappa 0.4: n=4167  OLS prov 0.0029  heur prov 0.0065  raw prov 0.0983
+[  302.8s]     E2 seed 2 kappa 0.5: n=5000  OLS prov 0.0033  heur prov 0.0052  raw prov 0.1263
+[  316.9s]     E2 seed 2 kappa 0.6: n=6250  OLS prov 0.0030  heur prov 0.0037  raw prov 0.1476
+[  320.9s]     E2 seed 3 kappa 0.0: n=2500  OLS prov 0.0022  heur prov 0.0094  raw prov 0.0000
+[  325.5s]     E2 seed 3 kappa 0.1: n=2778  OLS prov 0.0023  heur prov 0.0096  raw prov 0.0215
+[  330.5s]     E2 seed 3 kappa 0.2: n=3125  OLS prov 0.0021  heur prov 0.0077  raw prov 0.0483
+[  336.3s]     E2 seed 3 kappa 0.3: n=3571  OLS prov 0.0022  heur prov 0.0074  raw prov 0.0686
+[  343.1s]     E2 seed 3 kappa 0.4: n=4167  OLS prov 0.0017  heur prov 0.0063  raw prov 0.0946
+[  352.3s]     E2 seed 3 kappa 0.5: n=5000  OLS prov 0.0009  heur prov 0.0046  raw prov 0.1046
+[  365.4s]     E2 seed 3 kappa 0.6: n=6250  OLS prov 0.0015  heur prov 0.0039  raw prov 0.1333
+[  369.4s]     E2 seed 4 kappa 0.0: n=2500  OLS prov 0.0050  heur prov 0.0115  raw prov 0.0000
+[  373.5s]     E2 seed 4 kappa 0.1: n=2778  OLS prov 0.0049  heur prov 0.0111  raw prov 0.0206
+[  378.7s]     E2 seed 4 kappa 0.2: n=3125  OLS prov 0.0047  heur prov 0.0109  raw prov 0.0341
+[  384.4s]     E2 seed 4 kappa 0.3: n=3571  OLS prov 0.0047  heur prov 0.0107  raw prov 0.0457
+[  391.5s]     E2 seed 4 kappa 0.4: n=4167  OLS prov 0.0050  heur prov 0.0095  raw prov 0.0699
+[  401.1s]     E2 seed 4 kappa 0.5: n=5000  OLS prov 0.0042  heur prov 0.0084  raw prov 0.0795
+[  415.0s]     E2 seed 4 kappa 0.6: n=6250  OLS prov 0.0041  heur prov 0.0073  raw prov 0.0973
+[  415.0s] E3 robustness grid
+[  422.5s]     E3 seed 0 rho 0.0 h 0.0 strength 1.0: OLS prov 0.0027 heur 0.0066
+[  429.6s]     E3 seed 0 rho 0.0 h 0.0 strength 2.0: OLS prov 0.0026 heur 0.0050
+[  437.5s]     E3 seed 0 rho 0.0 h 0.0 strength 3.0: OLS prov 0.0011 heur 0.0024
+[  445.1s]     E3 seed 0 rho 0.0 h 0.2 strength 1.0: OLS prov 0.0031 heur 0.0120
+[  451.9s]     E3 seed 0 rho 0.0 h 0.2 strength 2.0: OLS prov 0.0028 heur 0.0090
+[  459.5s]     E3 seed 0 rho 0.0 h 0.2 strength 3.0: OLS prov 0.0009 heur 0.0075
+[  466.8s]     E3 seed 0 rho 0.0 h 0.4 strength 1.0: OLS prov 0.0049 heur 0.0159
+[  473.9s]     E3 seed 0 rho 0.0 h 0.4 strength 2.0: OLS prov 0.0048 heur 0.0147
+[  480.9s]     E3 seed 0 rho 0.0 h 0.4 strength 3.0: OLS prov 0.0028 heur 0.0120
+[  488.7s]     E3 seed 0 rho 0.5 h 0.0 strength 1.0: OLS prov 0.0028 heur 0.0066
+[  496.8s]     E3 seed 0 rho 0.5 h 0.0 strength 2.0: OLS prov 0.0026 heur 0.0050
+[  504.8s]     E3 seed 0 rho 0.5 h 0.0 strength 3.0: OLS prov 0.0011 heur 0.0024
+[  512.4s]     E3 seed 0 rho 0.5 h 0.2 strength 1.0: OLS prov 0.0031 heur 0.0120
+[  519.7s]     E3 seed 0 rho 0.5 h 0.2 strength 2.0: OLS prov 0.0029 heur 0.0090
+[  527.6s]     E3 seed 0 rho 0.5 h 0.2 strength 3.0: OLS prov 0.0009 heur 0.0075
+[  535.3s]     E3 seed 0 rho 0.5 h 0.4 strength 1.0: OLS prov 0.0049 heur 0.0159
+[  543.3s]     E3 seed 0 rho 0.5 h 0.4 strength 2.0: OLS prov 0.0048 heur 0.0147
+[  551.4s]     E3 seed 0 rho 0.5 h 0.4 strength 3.0: OLS prov 0.0029 heur 0.0120
+[  560.4s]     E3 seed 0 rho 1.0 h 0.0 strength 1.0: OLS prov 0.0028 heur 0.0066
+[  568.9s]     E3 seed 0 rho 1.0 h 0.0 strength 2.0: OLS prov 0.0026 heur 0.0050
+[  576.9s]     E3 seed 0 rho 1.0 h 0.0 strength 3.0: OLS prov 0.0011 heur 0.0024
+[  585.6s]     E3 seed 0 rho 1.0 h 0.2 strength 1.0: OLS prov 0.0031 heur 0.0120
+[  593.4s]     E3 seed 0 rho 1.0 h 0.2 strength 2.0: OLS prov 0.0029 heur 0.0090
+[  601.3s]     E3 seed 0 rho 1.0 h 0.2 strength 3.0: OLS prov 0.0009 heur 0.0075
+[  609.6s]     E3 seed 0 rho 1.0 h 0.4 strength 1.0: OLS prov 0.0049 heur 0.0159
+[  617.3s]     E3 seed 0 rho 1.0 h 0.4 strength 2.0: OLS prov 0.0048 heur 0.0147
+[  624.3s]     E3 seed 0 rho 1.0 h 0.4 strength 3.0: OLS prov 0.0030 heur 0.0120
+[  632.3s]     E3 seed 1 rho 0.0 h 0.0 strength 1.0: OLS prov 0.0010 heur 0.0044
+[  639.7s]     E3 seed 1 rho 0.0 h 0.0 strength 2.0: OLS prov 0.0005 heur 0.0022
+[  648.0s]     E3 seed 1 rho 0.0 h 0.0 strength 3.0: OLS prov 0.0012 heur 0.0015
+[  655.6s]     E3 seed 1 rho 0.0 h 0.2 strength 1.0: OLS prov 0.0042 heur 0.0097
+[  664.0s]     E3 seed 1 rho 0.0 h 0.2 strength 2.0: OLS prov 0.0037 heur 0.0058
+[  673.0s]     E3 seed 1 rho 0.0 h 0.2 strength 3.0: OLS prov 0.0024 heur 0.0057
+[  680.5s]     E3 seed 1 rho 0.0 h 0.4 strength 1.0: OLS prov 0.0049 heur 0.0124
+[  688.0s]     E3 seed 1 rho 0.0 h 0.4 strength 2.0: OLS prov 0.0049 heur 0.0106
+[  695.4s]     E3 seed 1 rho 0.0 h 0.4 strength 3.0: OLS prov 0.0035 heur 0.0097
+[  703.1s]     E3 seed 1 rho 0.5 h 0.0 strength 1.0: OLS prov 0.0010 heur 0.0044
+[  711.5s]     E3 seed 1 rho 0.5 h 0.0 strength 2.0: OLS prov 0.0005 heur 0.0022
+[  719.4s]     E3 seed 1 rho 0.5 h 0.0 strength 3.0: OLS prov 0.0012 heur 0.0015
+[  728.0s]     E3 seed 1 rho 0.5 h 0.2 strength 1.0: OLS prov 0.0042 heur 0.0097
+[  735.9s]     E3 seed 1 rho 0.5 h 0.2 strength 2.0: OLS prov 0.0037 heur 0.0058
+[  743.6s]     E3 seed 1 rho 0.5 h 0.2 strength 3.0: OLS prov 0.0024 heur 0.0057
+[  750.6s]     E3 seed 1 rho 0.5 h 0.4 strength 1.0: OLS prov 0.0048 heur 0.0124
+[  757.7s]     E3 seed 1 rho 0.5 h 0.4 strength 2.0: OLS prov 0.0049 heur 0.0106
+[  764.0s]     E3 seed 1 rho 0.5 h 0.4 strength 3.0: OLS prov 0.0035 heur 0.0097
+[  771.9s]     E3 seed 1 rho 1.0 h 0.0 strength 1.0: OLS prov 0.0011 heur 0.0044
+[  778.7s]     E3 seed 1 rho 1.0 h 0.0 strength 2.0: OLS prov 0.0005 heur 0.0022
+[  786.3s]     E3 seed 1 rho 1.0 h 0.0 strength 3.0: OLS prov 0.0011 heur 0.0015
+[  793.5s]     E3 seed 1 rho 1.0 h 0.2 strength 1.0: OLS prov 0.0042 heur 0.0097
+[  800.8s]     E3 seed 1 rho 1.0 h 0.2 strength 2.0: OLS prov 0.0037 heur 0.0058
+[  808.2s]     E3 seed 1 rho 1.0 h 0.2 strength 3.0: OLS prov 0.0024 heur 0.0057
+[  816.0s]     E3 seed 1 rho 1.0 h 0.4 strength 1.0: OLS prov 0.0048 heur 0.0124
+[  823.7s]     E3 seed 1 rho 1.0 h 0.4 strength 2.0: OLS prov 0.0049 heur 0.0106
+[  831.0s]     E3 seed 1 rho 1.0 h 0.4 strength 3.0: OLS prov 0.0036 heur 0.0097
+[  838.4s]     E3 seed 2 rho 0.0 h 0.0 strength 1.0: OLS prov 0.0012 heur 0.0036
+[  845.3s]     E3 seed 2 rho 0.0 h 0.0 strength 2.0: OLS prov 0.0011 heur 0.0027
+[  852.7s]     E3 seed 2 rho 0.0 h 0.0 strength 3.0: OLS prov 0.0013 heur 0.0008
+[  859.9s]     E3 seed 2 rho 0.0 h 0.2 strength 1.0: OLS prov 0.0041 heur 0.0108
+[  867.0s]     E3 seed 2 rho 0.0 h 0.2 strength 2.0: OLS prov 0.0042 heur 0.0093
+[  874.7s]     E3 seed 2 rho 0.0 h 0.2 strength 3.0: OLS prov 0.0027 heur 0.0068
+[  881.9s]     E3 seed 2 rho 0.0 h 0.4 strength 1.0: OLS prov 0.0039 heur 0.0146
+[  888.7s]     E3 seed 2 rho 0.0 h 0.4 strength 2.0: OLS prov 0.0025 heur 0.0141
+[  895.2s]     E3 seed 2 rho 0.0 h 0.4 strength 3.0: OLS prov 0.0019 heur 0.0108
+[  902.3s]     E3 seed 2 rho 0.5 h 0.0 strength 1.0: OLS prov 0.0013 heur 0.0036
+[  909.1s]     E3 seed 2 rho 0.5 h 0.0 strength 2.0: OLS prov 0.0011 heur 0.0027
+[  916.2s]     E3 seed 2 rho 0.5 h 0.0 strength 3.0: OLS prov 0.0013 heur 0.0008
+[  923.9s]     E3 seed 2 rho 0.5 h 0.2 strength 1.0: OLS prov 0.0041 heur 0.0108
+[  931.2s]     E3 seed 2 rho 0.5 h 0.2 strength 2.0: OLS prov 0.0042 heur 0.0093
+[  937.9s]     E3 seed 2 rho 0.5 h 0.2 strength 3.0: OLS prov 0.0026 heur 0.0068
+[  945.3s]     E3 seed 2 rho 0.5 h 0.4 strength 1.0: OLS prov 0.0039 heur 0.0146
+[  953.8s]     E3 seed 2 rho 0.5 h 0.4 strength 2.0: OLS prov 0.0025 heur 0.0141
+[  960.7s]     E3 seed 2 rho 0.5 h 0.4 strength 3.0: OLS prov 0.0019 heur 0.0108
+[  968.5s]     E3 seed 2 rho 1.0 h 0.0 strength 1.0: OLS prov 0.0013 heur 0.0036
+[  976.8s]     E3 seed 2 rho 1.0 h 0.0 strength 2.0: OLS prov 0.0012 heur 0.0027
+[  985.3s]     E3 seed 2 rho 1.0 h 0.0 strength 3.0: OLS prov 0.0012 heur 0.0008
+[  993.2s]     E3 seed 2 rho 1.0 h 0.2 strength 1.0: OLS prov 0.0041 heur 0.0108
+[ 1000.0s]     E3 seed 2 rho 1.0 h 0.2 strength 2.0: OLS prov 0.0042 heur 0.0093
+[ 1007.0s]     E3 seed 2 rho 1.0 h 0.2 strength 3.0: OLS prov 0.0026 heur 0.0068
+[ 1013.9s]     E3 seed 2 rho 1.0 h 0.4 strength 1.0: OLS prov 0.0039 heur 0.0146
+[ 1021.2s]     E3 seed 2 rho 1.0 h 0.4 strength 2.0: OLS prov 0.0025 heur 0.0141
+[ 1028.6s]     E3 seed 2 rho 1.0 h 0.4 strength 3.0: OLS prov 0.0020 heur 0.0108
+[ 1028.6s] E4 ablations
+[ 1035.8s]     E4 seed 0 done
+[ 1042.7s]     E4 seed 1 done
+[ 1050.3s]     E4 seed 2 done
+[ 1057.5s]     E4 seed 3 done
+[ 1065.2s]     E4 seed 4 done
+[ 1065.3s] E5 stealth-campaign discovery and retroactive correction
+[ 1079.1s]     E5 seed 0 done (n=5455)
+[ 1092.3s]     E5 seed 1 done (n=5455)
+[ 1105.2s]     E5 seed 2 done (n=5455)
+[ 1117.6s]     E5 seed 3 done (n=5455)
+[ 1130.6s]     E5 seed 4 done (n=5455)
+[ 1130.7s] E6 rollback at scale
+[ 1665.8s]     E6 real stream n=50000: touched 1004, selective 36.8 ms vs full 528.1 s, diff 1.25e-15
+[ 1665.9s]     E6 n=10000: touched 227 (2.270%), selective 7.0 ms, rebuild 0.02 s, diff 5.55e-17
+[ 1666.6s]     E6 n=100000: touched 2001 (2.001%), selective 26.4 ms, rebuild 0.09 s, diff 1.11e-16
+[ 1675.2s]     E6 n=1000000: touched 20006 (2.001%), selective 238.0 ms, rebuild 1.29 s, diff 1.67e-16
+[ 1683.9s]     E6 drift kahan=False: final max |dA| = 3.07e-12
+[ 1692.8s]     E6 drift kahan=True: final max |dA| = 1.25e-12
+[ 1692.9s] figures
+[ 1706.7s] done: {"selected_sentiment_model": "Linear SVC (Platt)", "abg": [1.0, 1.0, 1.0], "tau_nd": 0.5, "cal_edge_auc": 0.999978036331704, "seeds": [0, 1, 2, 3, 4], "kappas": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6], "stream_sha256": "3298cb7fbfddad6280f4442a889401b3dab16fe3de5ba0c15f5e7573a7a170d2", "stream_matches_shipped": null, "runtime_s": 1706.7463147640228, "quick": false}
