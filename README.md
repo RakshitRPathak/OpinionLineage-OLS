@@ -51,7 +51,7 @@ docs/fig_framework.*   # framework diagram (Graphviz source + render)
 ## Reproduce
 
 ```bash
-pip install -r requirements.txt
+pip install -r environment/requirements.txt
 cd code
 python main.py            # full run, about 30 min on 2 CPU cores
 python main.py --quick    # smoke test, about 8 min
