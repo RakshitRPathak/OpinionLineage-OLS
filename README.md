@@ -1,5 +1,7 @@
 # OpinionLineage-OLS
 
+[![smoke-test](https://github.com/RakshitRPathak/OpinionLineage-OLS/actions/workflows/ci.yml/badge.svg)](https://github.com/RakshitRPathak/OpinionLineage-OLS/actions/workflows/ci.yml)
+
 Code and data for the manuscript
 
 > R. R. Pathak, S. Vibhanshu, and Ranjith Kumar M, "Confidence-Weighted Opinion Lineage for Organic Sentiment Estimation Under Synthetic and Coordinated Amplification, With Exact Lineage-Bounded Retroactive Correction," submitted to *IEEE Access*, 2026.
